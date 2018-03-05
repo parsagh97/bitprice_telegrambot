@@ -5,7 +5,7 @@ import requests
 
 now = datetime.now()
 
-updater = Updater(token='556100706:AAEd3gFtUcu9iU51xnmdTJGgNKbJHw8QNjc')
+updater = Updater(token='your bot token')
 dispatcher = updater.dispatcher
 
 def start(bot, update):
